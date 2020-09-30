@@ -1,0 +1,24 @@
+.lists {
+    margin: 0;
+    padding:0 ;
+    list-style-type: none;
+}
+
+.lists li{
+    display: inline;
+    margin: 10px;
+    float: right;
+}
+h2{
+    background-color: #186776;
+    color: white;
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+body{
+    background-image: url('web.png');
+}
+    
