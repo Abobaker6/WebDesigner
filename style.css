@@ -1,0 +1,89 @@
+h2{
+    padding: 0;
+    margin: 0 ;
+    font-size: 55px;
+    
+    
+    color: rgb(49, 59, 59);
+    
+    border-radius: ;
+    text-align: center;
+    font-style: ;
+    background: #d87c30  ;
+    
+    
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("img.png")    ;
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  margin-left: ;
+}
+    
+ul li{
+  padding: 5px;
+  margin-right: 10px;
+  list-style: none;
+  display: inline-block;
+  color:#a39faf ;
+  transition-duration: 0.25s;
+  
+  
+}
+
+ul li ul {
+   position:absolute ;
+   display: block;
+   padding-left: 0;
+   visibility: hidden;
+   transition-duration: 0.005s;
+   margin-left: -5px;
+   
+
+
+}
+ul li ul li{
+  display: block;
+
+}
+ul li:hover{
+  background-color:#a39faf ;
+  color: black;
+}
+
+ul li:hover ul{
+  visibility: visible;
+  transition-duration: 0.25s
+
+}
+footer{
+  color: rgb(64, 187, 224);
+  font-size: 40px;
+  margin-top:350px ;
+  margin-bottom: 550px;
+  margin-left: 550px;
+  margin-right: 600px;
+  text-align: center;
+  
+  
+}
+
+footer:hover{
+  background-color: rgb(78, 143, 218);
+  transition-duration: 0.5s;
+  border-radius: 15px;
+  color: white;
+  
+}    
